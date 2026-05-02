@@ -26,7 +26,7 @@ body {
   opacity: 0.4;
   transform: scale(0.8);
 
-  border: 3px solid #ffffff;   
+  border: 5px solid #BF69A9;   
   border-radius: 10px;         
 }
 
@@ -40,5 +40,5 @@ body {
 }
 
 .slider img:active {
-  transform: scale(3.3);
+  transform: scale(2.3);
 }
