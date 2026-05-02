@@ -31,3 +31,7 @@ body {
   opacity: 1;
   transform: scale(1.2);
 }
+
+.slider img {
+  cursor: pointer;
+}
