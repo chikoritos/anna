@@ -33,6 +33,8 @@ body {
 .slider img.active {
   opacity: 1;
   transform: scale(1.2);
+   border: 5px solid #BF69A9;   
+  border-radius: 10px;  
 }
 
 .slider img {
