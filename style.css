@@ -87,3 +87,10 @@ body {
     font-size: 22px;
   }
 }
+
+.slider img {
+  cursor: pointer;
+}
+.slider img:active {
+  transform: scale(1.3);
+}
