@@ -43,4 +43,6 @@ body {
 
 .slider img:active {
   transform: scale(2.3);
+  border: 5px solid #BF69A9;
+  border-radius: 20px;  
 }
