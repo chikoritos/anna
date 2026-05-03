@@ -68,7 +68,7 @@ body {
   color: #FF84EC;
   font-weight: bold;
 
-  animation: textGlow 2s infinite;
+  animation: textGlow 1s infinite;
 }
 
 @keyframes textGlow {
@@ -76,10 +76,10 @@ body {
     text-shadow: 0 0 40px rgba(255, 34, 131, 0.5);
   }
   50% {
-    text-shadow: 0 0 20px rgba(0,255,200,1);
+    text-shadow: 0 0 20px rgba(255, 34, 131, 0.5);
   }
   100% {
-    text-shadow: 0 0 20px rgba(0,255,200,0.3);
+    text-shadow: 0 0 20px rgba(255, 34, 131, 0.5);
   }
 }
 
