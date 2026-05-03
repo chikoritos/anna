@@ -27,7 +27,7 @@ body {
 .slider-container {
   width: 100%;
   overflow: hidden;
-  margin-top: 10px;
+  margin-top: 40px;
   margin-left: 100px;
   touch-action: none;
 }
