@@ -73,13 +73,13 @@ body {
 
 @keyframes textGlow {
   0% {
-    text-shadow: 0 0 20px rgba(0,255,200,0.3);
+    text-shadow: 0 0 40px rgba(0,255,200,0.3);
   }
   50% {
-    text-shadow: 0 0 10px rgba(0,255,200,1);
+    text-shadow: 0 0 20px rgba(0,255,200,1);
   }
   100% {
-    text-shadow: 0 0 5px rgba(0,255,200,0.3);
+    text-shadow: 0 0 20px rgba(0,255,200,0.3);
   }
 }
 
