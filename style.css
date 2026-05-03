@@ -64,7 +64,7 @@ body {
 .anna-text {
   text-align: center;
   margin-top: -100px;
-  font-size: 28px;
+  font-size: 30px;
   color: #FF84EC;
   font-weight: bold;
 
@@ -73,7 +73,7 @@ body {
 
 @keyframes textGlow {
   0% {
-    text-shadow: 0 0 40px rgba(0,255,200,0.3);
+    text-shadow: 0 0 40px rgba(255, 34, 131, 0.5);
   }
   50% {
     text-shadow: 0 0 20px rgba(0,255,200,1);
