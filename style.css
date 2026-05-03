@@ -46,3 +46,7 @@ body {
   border: 5px solid #BF69A9;
   border-radius: 20px;  
 }
+
+.slider-container {
+  touch-action: pan-y;
+}
