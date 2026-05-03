@@ -94,3 +94,7 @@ body {
 .slider img:active {
   transform: scale(2.3);
 }
+
+footer {
+    margin-top: 50px; /* Alt boşluk miktarı */
+}
