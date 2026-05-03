@@ -22,11 +22,9 @@ function updateSlider() {
 
 window.addEventListener('wheel', (e) => {
 if (e.deltaY > 0) {
-  currentIndex++;
-  if (currentIndex >= images.length) currentIndex = 0;
+  currentIndex = Math.min(currentIndex + 1, images.length - 1);
 } else {
-  currentIndex--;
-  if (currentIndex < 0) currentIndex = images.length - 1;
+  currentIndex = Math.max(currentIndex - 1, 0);
 }
   updateSlider();
 });
@@ -50,8 +48,7 @@ slider.addEventListener('touchend', () => {
   if (Math.abs(diff) > 50) { // hassasiyet
     if (diff > 0) {
       // sola swipe → sağa kaydır
-      currentIndex++;
-if (currentIndex >= images.length) currentIndex = 0;
+    currentIndex = Math.min(currentIndex + 1, images.length - 1);
     } else {
       // sağa swipe → sola kaydır
       currentIndex = Math.max(currentIndex - 1, 0);
