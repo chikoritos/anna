@@ -68,7 +68,7 @@ body {
   color: #FF84EC;
   font-weight: bold;
 
-  animation: textGlow 1s infinite;
+  animation: textGlow 4s infinite;
 }
 
 @keyframes textGlow {
