@@ -2,24 +2,20 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anna</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<style>
-  body {
-    background-image: url('https://media3.giphy.com/media/xTiTnm48N0ZO7yR99m/giphy.gif');
-    background-repeat: repeat-y;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-</style>
-
 <body>
 
-<div style="display: flex; justify-content: center; align-items: flex-start; height: 100vh;">
-  <img src="https://xatimg.com/image/LbqKCbzdkceT.png" alt="Anna" style="max-width: 100%;">
+<!-- ANNA BAŞLIK -->
+<div class="header">
+  <img src="https://xatimg.com/image/LbqKCbzdkceT.png" class="anna-logo">
 </div>
 
+<p class="anna-text">SOY UNA LEYENDA DE XAT.COM </p>
+
+<!-- SLIDER -->
 <div class="slider-container">
   <div class="slider" id="slider">
     <img src="https://xatimg.com/image/MIBPQcFmm3XJ.gif">
@@ -32,36 +28,5 @@
 </div>
 
 <script src="script.js"></script>
-
-  <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false"></body>
-<script type="text/javascript">
-
-//form tags to omit in NS6+:
-var omitformtags=["input", "textarea", "select"]
-
-omitformtags=omitformtags.join("|")
-
-function disableselect(e){
-if (omitformtags.indexOf(e.target.tagName.toLowerCase())==-1)
-return false
-}
-
-function reEnable(){
-return true
-}
-
-if (typeof document.onselectstart!="undefined")
-document.onselectstart=new Function ("return false")
-else{
-document.onmousedown=disableselect
-document.onmouseup=reEnable
-}
-
-</script>
-<body onkeydown="return false">
-
-
-
-  
 </body>
 </html>
