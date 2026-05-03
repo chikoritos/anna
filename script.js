@@ -30,3 +30,29 @@ window.addEventListener('wheel', (e) => {
 });
 
 updateSlider();
+
+let startX = 0;
+let endX = 0;
+
+slider.addEventListener('touchstart', (e) => {
+  startX = e.touches[0].clientX;
+});
+
+slider.addEventListener('touchmove', (e) => {
+  endX = e.touches[0].clientX;
+});
+
+slider.addEventListener('touchend', () => {
+  let diff = startX - endX;
+
+  if (Math.abs(diff) > 50) { // hassasiyet
+    if (diff > 0) {
+      // sola swipe → sağa kaydır
+      currentIndex = Math.min(currentIndex + 1, images.length - 1);
+    } else {
+      // sağa swipe → sola kaydır
+      currentIndex = Math.max(currentIndex - 1, 0);
+    }
+    updateSlider();
+  }
+});
