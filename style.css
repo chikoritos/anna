@@ -35,6 +35,7 @@ body {
   transform: scale(1.2);
    border: 5px solid #BF69A9;   
   border-radius: 10px;  
+    box-shadow: 0 0 20px rgba(0,255,200,0.7);
 }
 
 .slider img {
