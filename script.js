@@ -1,6 +1,11 @@
 const slider = document.getElementById('slider');
 const images = slider.querySelectorAll('img');
-
+images.forEach((img, index) => {
+  img.addEventListener('click', () => {
+    currentIndex = index;
+    updateSlider();
+  });
+});
 let currentIndex = 2;
 
 /* AKTİF GÜNCELLE */
